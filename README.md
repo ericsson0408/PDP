@@ -136,7 +136,7 @@ be retrained:
 | `libdeflate` | ✅ | `third_party/libdeflate/` |
 | 3D + 2.5D **inference** ONNX (fp16) | ❌ (~62 MB) | `data/download_models.sh` |
 | **ONNX Runtime GPU 1.19.2** | ❌ (~500 MB) | `third_party/download_onnxruntime.sh` |
-| **AIIB23 dataset** | ❌ (~50 GB) | `data/download_ct.sh` |
+| **AIIB23 dataset** | ❌ (~50 GB) | `https://codalab.lisn.upsaclay.fr/competitions/13238` |
 | Full `.pth`/`.pt` training checkpoints | ❌ | Google Drive (only to resume training) |
 
 ---
