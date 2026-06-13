@@ -1,0 +1,7 @@
+config                     mean_onnx mean_tot mean_dice
+N_naive_serial_sm            22.623   24.010   0.9103
+A_omp_softmax                11.479   12.866   0.9103
+B_cudnn_heur                 10.470   11.856   0.9103
+Dp_trt_fp16                   7.788    9.175   0.9105
+D_gpu_softmax                 6.308    7.693   0.9105
+G_switch_2p5d                 2.720    4.082   0.8634
